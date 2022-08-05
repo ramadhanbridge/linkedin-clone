@@ -9,7 +9,7 @@ import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay';
 import Posts from './Posts';
 import { db } from '../firebase.js';
 import firebase from 'firebase/compat/app';
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
 
